@@ -17,7 +17,7 @@
  
 from flask import  Flask , redirect , url_for
 
-app = Flask(__name__)
+app = Flask(__name_)
 
 @app.route('/')
 def welcome():
